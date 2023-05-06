@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+
+<html lang="el">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KERYNEIA-SUP</title>
+
+    <link rel="shortcut icon" href="../images/logo.png" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link href="../CSS/style(2).css" rel="stylesheet" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap");
+      /* #myCarouselcontainer {
+        position: relative;
+      }
+
+      .carousel-item {
+        height: 32rem;
+        background: #777;
+        color: aliceblue;
+        position: relative;
+      }
+
+      .overlay-image {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-position: center;
+        background-size: cover;
+        opacity: 0.5;
+      }
+
+      .textcontainercarousel {
+        border-radius: 25px;
+        background-color: rgb(0, 0, 0);
+        opacity: 0.5;
+      }*/
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="col-md-12">
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+          <!-- Μπάρα πλοήγησης μπορεί να αλλάξει-->
+          <div class="container-fluid">
+            <a
+              class="navbar-brand d-inline-block py-0"
+              style="font-family: 'Jura', sans-serif"
+              href="/index.html"
+            >
+              <img
+                src="../images/logo.png"
+                alt="Logo "
+                width="30"
+                height="30"
+                class="d-inline-block align-top"
+              />
+              KERYNEIA-SUP
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarResponsive"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link py-0" href="../HTML/home.html">Αρχική</a>
+                </li>
+                <li class="nav-item active">
+                  <a
+                    class="nav-link active py-0"
+                    aria-current="page"
+                    href="../HTML/trainers.html"
+                    >Εκπαιδευτές</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link py-0" href="../HTML/tmhmata.html"
+                    >Τμήματα
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link py-0" href="../HTML/info.html"
+                    >Πληροφορίες</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link py-0" href="../HTML/help.html">Βοήθεια</a>
+                </li>
+                <li class="nav-item dropdown active">
+                  <a
+                    class="nav-link py-0 dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Γλώσσες
+                  </a>
+                  <div
+                    class="dropdown-menu"
+                    style="width: fit-content"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <a class="dropdown-item w-100" href="/index.html"
+                      ><img
+                        src="../images/greece.png"
+                        alt="Logo "
+                        width="30"
+                        height="25"
+                        class="d-inline-block align-text-top rounded-circle"
+                      />Ελληνικά</a
+                    >
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../HTML_en/index_en.html"
+                      ><img
+                        src="../images/united-kingdom.png"
+                        alt="Logo "
+                        width="30"
+                        height="25"
+                        class="d-inline-block align-text-top rounded-circle"
+                      />Αγγλικά</a
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="container pt-2">
+      <hr class="main" />
+    </div>
+    <!-- Kefalida-->
+    <div class="container-fluid padding">
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <h1 class="display-4" style="color: coral" ;>
+            Γνωρίστε την ομάδα μας..
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <hr class="main" />
+    </div>
+    <!-- Kartes ekpaideutetwn-->
+    <div class="container">
+      <div class="col-md-12">
+        <div class="container-fluid padding">
+          <div class="row padding">
+            <div class="col-md-6 d-flex">
+              <div class="card flex-fill">
+                <img
+                  src="../images/slide_trainer_xr.jpg"
+                  class="card-img-top"
+                  alt="Φωτογραφίες"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Χριστόφορος Κωνσταντινίδης</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">SUP Coach</h6>
+                  <p class="card-text">
+                    Απόφοιτος λυκείου και υπηρετώντας στον κυπριακό στρατό,
+                    εισαχθαίος στο τμήμα Ναυτιλιακών Σπουδών στο Πανεπιστήμιο
+                    Λεμεσού ο Χριστόφορος έχει γράψει πάμπολλες επιτυχίες σε
+                    Παγκύπριο επίπεδο αλλά και στους στίβους του εξωτερικού σε
+                    Ελλάδα και Ευρώπη. Παρόλο το νεαρό της ηλικίας του η
+                    εμπειρία του είναι πολύ μεγάλη. Γνώστης του αντικειμένου,
+                    τον διέπει η ομαδικότητα, η φιλική του φυσιογνωμία και η
+                    μεταδοτικότητα του . Να μην διστάσετε να τον ρωτήσετε για το
+                    οτιδήποτε .
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex">
+              <div class="card flex-fill">
+                <img
+                  src="../images/slide_trainer_kyr.jpg"
+                  class="card-img-top"
+                  alt="Φωτογραφίες"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Κυριακή Κωνσταντινίδη</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">SUP Coach</h6>
+                  <p class="card-text">
+                    Απόφοιτη του Πανεπιστημίου Δυτικής Αττικής του τμήματος
+                    Ακτινολογίας-Ακτινοθεραπείας η Κυριακή έχει γράψει με χρυσά
+                    γράμματα το όνομά της στην ιστορία του αθλήματος του
+                    Κανόε-Καγιάκ. Με μέντορα τον θρύλο του αθλήματος , Ανδρέα
+                    Διαμαντή , έχει καταφέρει και συνεχίζει να τιμά τα χρώματα
+                    της Κύπρου όχι μόνο στο εσωτερικό αλλά και στο διεθνές
+                    στερέωμα. Πολύ δυναμική και έτοιμη να σας καθοδηγήσει ανά
+                    πάσα στιγμή. Να σας συμβουλεύσει όχι μόνο κατά την ώρα της
+                    άσκησης αλλά και ότι αφορά γύρω από αυτό θέματα διατροφής ,
+                    ξεκούρασης και άλλα.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <hr class="main" />
+    </div>
+    <!-- Keimeno kai photo-->
+
+    <div class="container-fluid padding">
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <h1 class="display-4" style="color: coral" ;>Η φιλοσοφία μας</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <hr class="main" />
+    </div>
+
+    <div class="container">
+      <div class="row ml-2">
+        <div class="col-md-4 lead">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne"
+                  aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne"
+                >
+                  Όραμα, Αξίες και Στόχοι
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne"
+                data-bs-parent="#accordionPanelsStayOpenExample"
+              >
+                <div class="accordion-body">
+                  <strong></strong>
+                  Έχοντας πλήρη επίγνωση της σημαντικής επίδρασης του αθλητισμού
+                  και ιδιαίτερα του Ναυταθλητισμού στην ισορροπημένη ανάπτυξη
+                  των νέων, σε επίπεδο υγείας αλλά και ηθικής ανάπτυξης, ο
+                  Όμιλός μας οραματίζεται να δημιουργήσει μια μεγάλη οικογένεια
+                  αθλητών, στους οποίους θα παρέχει όλες τις συνθήκες και εφόδια
+                  για υγιή ενασχόληση, που θα τους προστατεύει από τις απειλές
+                  της σύγχρονης κοινωνίας.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Διεθνέις οργανώσεις
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionPanelsStayOpenExample"
+              >
+                <div class="accordion-body">
+                  Επιπλέον, όραμα μας είναι φυσικά οι αθλητές μας να διατηρούν
+                  υψηλό αγωνιστικό επίπεδο και να εκπροσωπούν την χώρα μας σε
+                  μεγάλες διεθνείς διοργανώσεις με τις καλύτερες επιδόσεις,πάντα
+                  με βάση το
+                  <span class="badge bg-gradient fs-5 text"
+                    >Ευ Αγωνίζεσθαι.</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Η ιστορία του ομίλου μας
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionPanelsStayOpenExample"
+              >
+                <div class="accordion-body">
+                  Ο Ναυτικός Όμιλος Κερύνειας Ο Ναυτικός Όμιλος Κερύνειας
+                  ιδρύθηκε το 1982 από μια ομάδα Κερυνειωτών που διέμεναν στη
+                  Λεμεσό, έπειτα από το ξεριζωμό τους από την Τουρκική Εισβολή
+                  του 1974. Αυτή η ομάδα αισθάνθηκε την ανάγκη δημιουργίας μιας
+                  εθνικής και αγωνιστικής έπαλξης που να συνενώνει όλες τις
+                  δυνάμεις των Κερυνειωτών και να αγκαλιάσει ιδιαίτερα τη
+                  νεολαία της Κερύνειας.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 align-content-end">
+          <div
+            id="slides"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <ul class="carousel-indicators">
+              <li
+                data-bs-target="#slides"
+                data-bs-slide-to="0"
+                class="active"
+              ></li>
+              <li data-bs-target="#slides" data-bs-slide-to="1"></li>
+              <li data-bs-target="#slides" data-bs-slide-to="2"></li>
+              <li data-bs-target="#slides" data-bs-slide-to="3"></li>
+              <li data-bs-target="#slides" data-bs-slide-to="4"></li>
+              <li data-bs-target="#slides" data-bs-slide-to="5"></li>
+            </ul>
+
+            <div class="carousel-inner" style="border-radius: 10px">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img
+                  src="../images/slide_trainers(2).jpg"
+                  class="d-block w-100"
+                  alt="Φωτογραφίες"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img
+                  src="../images/slide_trainers(6).jpg"
+                  class="d-block w-100"
+                  alt="Φωτογραφίες"
+                  style="object-position: right"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img
+                  src="../images/slide_trainers(3).jpg"
+                  class="d-block w-100"
+                  alt="Φωτογραφίες"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img
+                  src="../images/slide_trainers(4).jpg"
+                  class="d-block w-100"
+                  alt="Φωτογραφίες"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img
+                  src="../images/slide_trainers(5).jpg"
+                  class="d-block w-100"
+                  alt="Φωτογραφίες"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img
+                  src="../images/slide_trainers(1).jpg"
+                  class="d-block w-100"
+                  alt="Φωτογραφίες"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#slides"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#slides"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!--Keimeno katw apo to carousel-->
+          <div class=""></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <hr class="main" />
+    </div>
+    <!-- Pedio social media-->
+
+    <div class="container-fluid padding">
+      <div class="row text-center padding">
+        <div class="col-12">
+          <h2>Συνδέσου μαζί μας</h2>
+        </div>
+
+        <div class="col-12 social padding">
+          <a href="https://www.instagram.com/kyrenia_sup/"
+            ><i class="fab fa-instagram" title="Edit"></i
+          ></a>
+          <a
+            href="mailto:keryneiasup@gmail.com?subject = Feedback&body = Message"
+          >
+            <i
+              class="fa fa-envelope"
+              width="30"
+              height="24"
+              title="Edit"
+              class="d-inline-block align-text-center"
+            ></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <footer>
+      <div class="container-fluid padding">
+        <div class="row text-left">
+          <div class="col-md-4">
+            <hr class="light" />
+            <a
+              class="navbar-brand d-inline-block"
+              href="/index.html"
+              style="font-family: 'Jura', sans-serif"
+            >
+              <img
+                src="../images/logo.png"
+                alt="Logo"
+                width="30"
+                height="24"
+                class="d-inline-block align-text-top"
+              />
+              KERYNEIA-SUP
+            </a>
+            <hr class="light" />
+            <!--Tha to ftiaksw meta me style-->
+            <p
+              class="d-inline-block align-text-center px-1"
+              style="text-decoration: none; margin: 0 0"
+            >
+              Social:
+            </p>
+
+            <i
+              class="fab fa-instagram"
+              width="30"
+              height="24"
+              title="Edit"
+              class="d-inline-block align-text-center"
+            ></i>
+            <p
+              class="d-inline-block align-text-center px-2"
+              style="text-decoration: none; margin: 0 0"
+            >
+              kyreneia_sup
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <hr class="light" />
+            <p>Τοποθεσία: Κύπρος,Μουτταγιάκα Λεμεσός</p>
+            <hr class="light" />
+            <p>Διεύθυνση: Λεωφόρος Αμαθούντος αριθμός 1 , 4531</p>
+            <!--Tha to ftiaksw meta me style-->
+
+            <hr class="light" />
+
+            <p>Ταχυδρομική θυρίδα: 54409 , 3724 Λεμεσός</p>
+            <hr class="light" />
+          </div>
+
+          <div class="col-md-4">
+            <hr class="light" />
+
+            <p
+              class="d-inline-block"
+              style="text-decoration: none; margin: 0 0"
+            >
+              Επικοινωνήστε μαζί μας:
+            </p>
+
+            <hr class="light" />
+            <i
+              class="fa fa-envelope"
+              width="30"
+              height="24"
+              title="Edit"
+              class="d-inline-block align-text-center"
+            ></i>
+            <p
+              class="d-inline-block"
+              style="text-decoration: none; margin: 0 0"
+            >
+              E-mail:
+            </p>
+            <p class="d-inline-block px-1">keryneiasup@gmail.com</p>
+          </div>
+          <div class="col-12 text-center">
+            <hr class="light-100" />
+            <h5>&copy;2022keryneiasup.com</h5>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/9765072bb3.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

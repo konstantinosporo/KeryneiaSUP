@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="el">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KERYNEIA-SUP</title>
+
+    <link rel="shortcut icon" href="../images/logo.png" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link href="../CSS/style(2).css" rel="stylesheet" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap");
+      #myCarouselcontainer {
+        position: relative;
+      }
+
+      .carousel-item {
+        height: 32rem;
+        background: #777;
+        color: aliceblue;
+        position: relative;
+      }
+
+      .overlay-image {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-position: center;
+        background-size: cover;
+        opacity: 0.5;
+      }
+
+      .textcontainercarousel {
+        border-radius: 25px;
+        background-color: rgb(0, 0, 0);
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div class="container">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+            <!-- Μπάρα πλοήγησης μπορεί να αλλάξει-->
+            <div class="container-fluid">
+              <a
+                class="navbar-brand d-inline-block py-0"
+                style="font-family: 'Jura', sans-serif"
+                href="/index.html"
+              >
+                <img
+                  src="../images/logo.png"
+                  alt="Logo "
+                  width="30"
+                  height="30"
+                  class="d-inline-block align-top"
+                />
+                KERYNEIA-SUP
+              </a>
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link py-0" href="./home.html">Αρχική</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link py-0" href="./trainers.html"
+                      >Εκπαιδευτές</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link py-0" href="../HTML/tmhmata.html"
+                      >Τμήματα</a
+                    >
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link py-0" href="../HTML/info.html"
+                      >Πληροφορίες</a
+                    >
+                  </li>
+                  <li class="nav-item active">
+                    <a
+                      class="nav-link active py-0"
+                      aria-current="page"
+                      href="../HTML/help.html"
+                      >Βοήθεια</a
+                    >
+                  </li>
+                  <li class="nav-item dropdown active">
+                    <a
+                      class="nav-link dropdown-toggle py-0"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Γλώσσες
+                    </a>
+                    <div
+                      class="dropdown-menu"
+                      style="width: fit-content"
+                      aria-labelledby="navbarDropdown"
+                    >
+                      <a class="dropdown-item w-100" href="/index.html"
+                        ><img
+                          src="../images/greece.png"
+                          alt="Logo "
+                          width="30"
+                          height="25"
+                          class="d-inline-block align-text-top rounded-circle"
+                        />Ελληνικά</a
+                      >
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="../HTML_en/index_en.html"
+                        ><img
+                          src="../images/united-kingdom.png"
+                          alt="Logo "
+                          width="30"
+                          height="25"
+                          class="d-inline-block align-text-top rounded-circle"
+                        />Αγγλικά</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-md-12">
+          <p class="fs-1 text" style="color: coral">
+            Πληροφορίες για την ιστοσελίδα:
+          </p>
+          <div class="container">
+            <hr class="main" />
+          </div>
+          <ul>
+            <li>
+              <p class="fs-2 text">
+                Η ιστοσελίδα μας είναι δομημένη ωστέ να μην αντλεί προσωπικές
+                πληροφορίες του κάθε επισκέπτη.
+              </p>
+            </li>
+            <li>
+              <p class="fs-2 text">
+                Όλες οι φωτογραφίες έχουν κατοχυρωμένα διακαιώματα και
+                απαγορεύεται η χρήση,κοινοποίηση και το κατέβασμα τους.
+              </p>
+            </li>
+            <li>
+              <p class="fs-2 text">
+                Τα κείμενα αποτελούν ιδιοκτησία του συντάκτη τους.
+              </p>
+            </li>
+          </ul>
+
+          <p class="fs-1 text" style="color: coral">
+            Επιμέλεια και πνευματικά δικαιώματα:
+          </p>
+          <div class="container">
+            <hr class="main" />
+          </div>
+          <ul>
+            <li>
+              <p class="fs-2 text">Κωνσταντίνος Πόρος</p>
+            </li>
+            <li>
+              <p class="fs-2 text">Αθανάσιος Σώρας</p>
+            </li>
+          </ul>
+          <p class="fs-1 text" style="color: coral">
+            Ιστοσελίδες που αξίζει να αναφερθούν:
+          </p>
+          <div class="container">
+            <hr class="main" />
+          </div>
+          <ul>
+            <li>https://getbootstrap.com/</li>
+            <li>https://www.pexels.com/videos/</li>
+            <li>https://fontawesome.com/</li>
+            <li>https://fonts.google.com/</li>
+            <li>https://www.instagram.com</li>
+            <li>https://mail.google.com</li>
+            <li>https://www.wikipedia.org</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container">
+        <hr class="main" />
+      </div>
+      <!-- Pedio social media-->
+      <div class="container-fluid padding">
+        <div class="row text-center padding">
+          <div class="col-12">
+            <h2>Συνδέσου μαζί μας</h2>
+          </div>
+
+          <div class="col-12 social padding">
+            <a href="https://www.instagram.com/kyrenia_sup/"
+              ><i class="fab fa-instagram" title="Edit"></i
+            ></a>
+            <a
+              href="mailto:keryneiasup@gmail.com?subject = Feedback&body = Message"
+            >
+              <i
+                class="fa fa-envelope"
+                width="30"
+                height="24"
+                title="Edit"
+                class="d-inline-block align-text-center"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <hr class="main" />
+      </div>
+      <!--Footer-->
+      <footer>
+        <div class="container-fluid padding">
+          <div class="row text-left">
+            <div class="col-md-4">
+              <hr class="light" />
+              <a
+                class="navbar-brand d-inline-block"
+                href="/index.html"
+                style="font-family: 'Jura', sans-serif"
+              >
+                <img
+                  src="../images/logo.png"
+                  alt="Logo"
+                  width="30"
+                  height="24"
+                  class="d-inline-block align-text-top"
+                />
+                KERYNEIA-SUP
+              </a>
+              <hr class="light" />
+              <!--Tha to ftiaksw meta me style-->
+              <p
+                class="d-inline-block align-text-center px-1"
+                style="text-decoration: none; margin: 0 0"
+              >
+                Social:
+              </p>
+
+              <i
+                class="fab fa-instagram"
+                width="30"
+                height="24"
+                title="Edit"
+                class="d-inline-block align-text-center"
+              ></i>
+              <p
+                class="d-inline-block align-text-center px-2"
+                style="text-decoration: none; margin: 0 0"
+              >
+                kyreneia_sup
+              </p>
+            </div>
+
+            <div class="col-md-4">
+              <hr class="light" />
+              <p>Τοποθεσία: Κύπρος,Μουτταγιάκα Λεμεσός</p>
+              <hr class="light" />
+              <p>Διεύθυνση: Λεωφόρος Αμαθούντος αριθμός 1 , 4531</p>
+              <!--Tha to ftiaksw meta me style-->
+
+              <hr class="light" />
+
+              <p>Ταχυδρομική θυρίδα: 54409 , 3724 Λεμεσός</p>
+              <hr class="light" />
+            </div>
+
+            <div class="col-md-4">
+              <hr class="light" />
+
+              <p
+                class="d-inline-block"
+                style="text-decoration: none; margin: 0 0"
+              >
+                Επικοινωνήστε μαζί μας:
+              </p>
+
+              <hr class="light" />
+              <i
+                class="fa fa-envelope"
+                width="30"
+                height="24"
+                title="Edit"
+                class="d-inline-block align-text-center"
+              ></i>
+              <p
+                class="d-inline-block"
+                style="text-decoration: none; margin: 0 0"
+              >
+                E-mail:
+              </p>
+              <p class="d-inline-block px-1">keryneiasup@gmail.com</p>
+            </div>
+            <div class="col-12 text-center">
+              <hr class="light-100" />
+              <h5>&copy;2022keryneiasup.com</h5>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/9765072bb3.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
